@@ -1,0 +1,280 @@
+ 
+
+
+
+INTERNET-DRAFT                             Nuria Pujol, SDT1718 Students
+Intended Status: Proposed Standard             (University of Barcelona)
+Expires:                                                      28/02/2017
+
+                       A protocol for the Kuhn Poker Card Draw game
+
+Status of this Memo
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+      The list of current Internet-Drafts can be accessed at  
+   http://www.ietf.org/1id-abstracts.html
+
+      The list of Internet-Draft Shadow Directories can be accessed at  
+   http://www.ietf.org/shadow.html
+
+
+Abstract
+
+      This protocol is used for the client/server version of the popular
+     card game 'Kuhn Poker'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Pujol, N. SDT1718 Students Expires July 2018                    [Page 1]
+
+Internet Draft                 Poker Game             February 28 , 2018
+
+
+Table of Contents
+
+   1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . .
+   2 The Poker procedure for player and opponent  . . . . . . . . . .
+   3 The Poker Specification  . . . . . . . . . . . . . . . . . . . .
+     3.1 Player Commands Semantics: . . . . . . . . . . . . . . . . .
+     3.2 Server Commands Semantics: . . . . . . . . . . . . . . . . .
+     3.3 Command Syntax . . . . . . . . . . . . . . . . . . . . . . .
+     3.4 Error Command  . . . . . . . . . . . . . . . . . . . . . . .
+   4 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+     4.1 Game example . . . . . . . . . . . . . . . . . . . . . . . .
+   5 Rules of game  . . . . . . . . . . . . . . . . . . . . . . . . .
+   Authors' Addresses . . . . . . . . . . . . . . . . . . . . . . . .
+
+1 Introduction
+
+   (TODO) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Pujol, N. SDT1718 Students Expires July 2018                    [Page 2]
+
+Internet Draft                 Poker Game             February 28 , 2018
+
+
+   2 The Poker procedure for player and opponent.
+
+   The Poker design is based on the following procedure:
+
+   (TODO)
+
+3 The Poker Specification
+
+      This section presents the different commands used in the Poker  
+   protocol.
+
+3.1 Player Commands Semantics:
+
+      First, we start defining the commands used by the player:
+
+
+   (TODO)
+
+
+
+3.2 Server Commands Semantics:
+
+   Now, we define the commands used by the server:
+
+
+   (TODO)
+
+
+3.3 Command Syntax
+
+   (TODO)
+
+   The following are the Poker commands:
+
+
+   (TODO)     
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Pujol, N. SDT1718 Students Expires July 2018                    [Page 3]
+
+Internet Draft                 Poker Game             February 28 , 2018
+
+
+3.4 Error Command
+
+   (TODO)
+
+
+   (TODO)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Pujol, N. SDT1718 Students Expires July 2018                    [Page 4]
+
+Internet Draft                 Poker Game             February 28 , 2018
+
+
+4 Examples
+
+        C stands for a player (the client) and S stands for the other 
+   player (the server).
+
+4.1 Game example
+
+        This is an example of a Kuhn Poker game:
+
+       --------------------------
+
+        C: (TODO)
+        S: (TODO)
+        ...
+
+5 Rules of game
+
+      [POKER] https:// (TODO)
+
+   Authors' Addresses
+
+
+        Nuria Pujol i Vilanova
+        SDT1718 Students
+
+        Email: npujolvi@ub.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pujol, N. SDT1718 Students Expires July 2018                    [Page 5]

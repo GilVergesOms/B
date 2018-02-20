@@ -1,0 +1,165 @@
+.pl 10.0i
+.po 0
+.ll 7.2i
+.lt 7.2i
+.nr LL 7.2i
+.nr LT 7.2i
+.ds RF FORMFEED[Page %]
+.ds LH Internet Draft
+.\"   --> Header/footers: Set short title, author(s), and dates:
+.ds CH Poker Game                  \" <Short title>
+.ds LF Pujol, N. SDT1718 Students\" <Authors>
+.ds RH February 28 , 2018                  \" <Submission date>
+.ds CF Expires July 2018                \" <Expiration date>
+.hy 0
+.ad l
+
+.nf
+INTERNET-DRAFT                             Nuria Pujol, SDT1718 Students
+Intended Status: Proposed Standard             (University of Barcelona)
+Expires:                                                      28/02/2017
+
+.ce
+                  A protocol for the Kuhn Poker Card Draw game
+
+.in 3              \"  Basic indent for text is 3 spaces
+.ti 0              \"  "Temporary indent" for next line: 0 spaces
+Status of this Memo
+
+Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."
+
+   The list of current Internet-Drafts can be accessed at
+   http://www.ietf.org/1id-abstracts.html
+
+   The list of Internet-Draft Shadow Directories can be accessed at
+   http://www.ietf.org/shadow.html
+
+
+.ti 0              \"  "Temporary indent" for next line: 0 spaces
+Abstract
+
+   This protocol is used for the client/server version of the popular
+   card game 'Kuhn Poker'.
+
+.bp
+.in 0
+Table of Contents
+
+.nf
+   1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . .
+   2 The Poker procedure for player and opponent  . . . . . . . . . .
+   3 The Poker Specification  . . . . . . . . . . . . . . . . . . . .
+     3.1 Player Commands Semantics: . . . . . . . . . . . . . . . . .
+     3.2 Server Commands Semantics: . . . . . . . . . . . . . . . . .
+     3.3 Command Syntax . . . . . . . . . . . . . . . . . . . . . . .
+     3.4 Error Command  . . . . . . . . . . . . . . . . . . . . . . .
+   4 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+     4.1 Game example . . . . . . . . . . . . . . . . . . . . . . . .
+   5 Rules of game  . . . . . . . . . . . . . . . . . . . . . . . . .
+   Authors' Addresses . . . . . . . . . . . . . . . . . . . . . . . .
+
+.fi
+.in 3
+.ti 0
+1 Introduction
+
+(TODO) 
+
+.bp
+.ti 0
+
+2 The Poker procedure for player and opponent.
+
+The Poker design is based on the following procedure:
+
+(TODO)
+  
+.ti 0
+3 The Poker Specification
+
+   This section presents the different commands used in the Poker
+   protocol.
+
+.KS
+.ti 0
+3.1 Player Commands Semantics:
+
+   First, we start defining the commands used by the player:
+
+.nf
+
+(TODO)
+
+
+.fi
+.KE
+
+.KS
+.ti 0
+3.2 Server Commands Semantics:
+
+Now, we define the commands used by the server:
+
+.nf
+
+(TODO)
+ 
+.KE
+.fi
+
+.ti 0
+3.3 Command Syntax
+
+(TODO)
+
+.KS
+The following are the Poker commands:
+
+.nf
+
+(TODO)     
+
+.fi
+.KE
+.bp
+.ti 0
+3.4 Error Command
+
+(TODO)
+
+.nf
+
+(TODO)
+
+.bp
+.ti 0
+4 Examples
+
+     C stands for a player (the client) and S stands for the other 
+player (the server).
+
+.ti 0
+4.1 Game example
+
+     This is an example of a Kuhn Poker game:
+
+    --------------------------
+
+     C: (TODO)
+     S: (TODO)
+     ...
+
+.ti 0
+5 Rules of game
+
+   [POKER] https:// (TODO)
+
+.b
+.ti 0
+Authors' Addresses
+
+
+     Nuria Pujol i Vilanova
+     SDT1718 Students
+
+     Email: npujolvi@ub.edu
