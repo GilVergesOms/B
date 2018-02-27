@@ -84,11 +84,31 @@ The Poker design is based on the following procedure:
 .ti 0
 3.1 Player Commands Semantics:
 
-   First, we start defining the commands used by the player:
+    First, we start defining the commands used by the player. Because the name of the commands
+    is short enough we are gonna write them as they are. This way we don't need to remember things
+    like CHK --> CHECK and FLD --> FOLD.
+  
+       PLAY:
+           Sends the signal to the server saying the player wants to start the game
+
+       STOP: 
+           Sends the signal to the server saying the player wants to stop playing
+
+       BET:
+           The palyer bets 1 token from your 'wallet' and put it in the in game bet
+
+       CALL:
+           The player bets the same amount that the server has bet
+
+       FOLD:
+           The player retires from this game and lose it
+
+       CHECK:
+           The player goes along with the current state of the table
+
+
 
 .nf
-
-(TODO)
 
 
 .fi
