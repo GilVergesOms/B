@@ -129,7 +129,8 @@ Internet Draft                 Poker Game             February 28 , 2018
 
       First, we start defining the commands used by the player. Because the name of the commands
       is short enough we are gonna write them as they are. This way we don't need to remember things
-      like CHK --> CHECK and FLD --> FOLD.
+      like CHK --> CHECK and FLD --> FOLD. 
+      (# We agreed that all commans will have the same lenght, so the abbreviations are necessary)
       
          PLAY:
              Sends the signal to the server saying the player wants to start the game
@@ -155,8 +156,34 @@ Internet Draft                 Poker Game             February 28 , 2018
 
    Now, we define the commands used by the server:
 
-
-   (TODO)
+         (STACK) STK <int> <int>:
+             The fist time will define the 'wallet' of the 2 players.
+             After, will send the current value of the 'wallet' of the 2 players.
+             If the client see differences on the between its value and the received value, could send an error.(To decide)
+             
+         (TURN) TRN <char>:
+             Inform the player who is gonna play next.
+             If player plays next, will send 'C'
+             If server plays next, will send 'S'
+             
+         BET:
+             The server bets 1 token from the 'wallet' and put it in the in game bet
+             
+         (CALL) CAL:
+             The server bets the same amount that the server has bet
+             
+         (FOLD) FLD:
+             The server retires from this game and lose it
+             
+         (CHECK) CHK:
+             The server goes along with the current state of the table
+             
+         (CARD) CRD <char>:
+             The server send the player his card.
+             The card can be 'J', 'Q', 'K'
+             
+         (RESULT) RST :
+             To decide
 
 
 3.3 Command Syntax
